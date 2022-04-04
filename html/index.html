@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>麻雀点数計算</title>
+        <link rel="stylesheet" href="../css/index_pc.css" />
+    </head>
+    <body>
+        <header>
+            <h1>麻雀点数計算サイトへようこそ</h1>
+        </header>
+        <main>
+            <h2><span id="FuSu">20</span>符</h2>
+            <table id="Bakaze">
+                <tr>
+                    <td>場風</td>
+                    <td>
+                        <select name="Bakaze">
+                            <option value="0">東</option>
+                            <option value="1">南</option>
+                            <option value="2">西</option>
+                            <option value="3">北</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>自風</td>
+                    <td>
+                        <select name="Bakaze">
+                            <option value="0">東</option>
+                            <option value="1">南</option>
+                            <option value="2">西</option>
+                            <option value="3">北</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table id="Mentsu">
+                <tr>
+                    <td></td>
+                    <td>中張牌</td>
+                    <td>幺九牌</td>
+                </tr>
+                <tr>
+                    <td>明刻</td>
+                    <td>
+                        <select name="Tyun_Minko">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="Yao_Minko">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>暗刻</td>
+                    <td>
+                        <select name="Tyun_Anko">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="Yao_Anko">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>明槓</td>
+                    <td>
+                        <select name="Tyun_Minkan">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="Yao_Minkan">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>暗槓</td>
+                    <td>
+                        <select name="Tyun_Ankan">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="Yao_Ankan">
+                            <option value="0">0</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                        </select>
+                    </td>
+                </tr>
+            </table>
+            <table id="Zyanto">
+                <tr>
+                    <td colspan="2">雀頭</td>
+                </tr>
+                <tr>
+                    <td>数牌</td>
+                    <td>
+                        <input type="radio" name="Zyan" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>客風牌</td>
+                    <td>
+                        <input type="radio" name="Zyan" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>門風牌</td>
+                    <td>
+                        <input type="radio" name="Zyan" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>圏風牌</td>
+                    <td>
+                        <input type="radio" name="Zyan" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>三元牌</td>
+                    <td>
+                        <input type="radio" name="Zyan" />
+                    </td>
+                </tr>
+                <tr>
+                    <td>連風牌</td>
+                    <td>
+                        <input type="radio" name="Zyan" />
+                    </td>
+                </tr>
+            </table>
+            <table id="Mati">
+                <tr>
+                    <td colspan="2">待ちの種類</td>
+                </tr>
+                <tr>
+                    <td>両面待ち</td>
+                    <td><input type="radio" name="MatiHai" /></td>
+                </tr>
+                <tr>
+                    <td>双碰待ち</td>
+                    <td><input type="radio" name="MatiHai" /></td>
+                </tr>
+                <tr>
+                    <td>辺張待ち</td>
+                    <td><input type="radio" name="MatiHai" /></td>
+                </tr>
+                <tr>
+                    <td>嵌張待ち</td>
+                    <td><input type="radio" name="MatiHai" /></td>
+                </tr>
+                <tr>
+                    <td>単騎待ち</td>
+                    <td><input type="radio" name="MatiHai" /></td>
+                </tr>
+            </table>
+        </main>
+        <footer>Marjan Score Calculation</footer>
+    </body>
+</html>

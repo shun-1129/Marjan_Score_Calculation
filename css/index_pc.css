@@ -1,0 +1,72 @@
+body {
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body header {
+  height: 10%;
+  padding: 10px 0;
+  text-align: center;
+}
+
+body main {
+  height: 80%;
+  margin: 0 auto;
+}
+
+body main h2 {
+  text-align: center;
+}
+
+body main h2 span {
+  color: red;
+}
+
+body main #Bakaze {
+  margin: 0 auto;
+}
+
+body main #Bakaze td {
+  width: 100px;
+  text-align: center;
+}
+
+body main #Mentsu {
+  margin: 0 auto;
+}
+
+body main #Mentsu th {
+  width: 100px;
+  text-align: center;
+}
+
+body main #Mentsu td {
+  width: 100px;
+  text-align: center;
+}
+
+body main #Zyanto {
+  margin: 0 auto;
+}
+
+body main #Zyanto td {
+  width: 100px;
+  text-align: center;
+}
+
+body main #Mati {
+  margin: 0 auto;
+}
+
+body main #Mati td {
+  width: 100px;
+  text-align: center;
+}
+
+body footer {
+  height: 10%;
+  text-align: center;
+}
+/*# sourceMappingURL=index_pc.css.map */
